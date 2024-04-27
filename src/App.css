@@ -1,0 +1,25 @@
+/* Custom style */
+.list-group-item-custom {
+  cursor: pointer;
+}
+
+.list-group-item-custom :hover {
+  background-color: #f8f9fa;
+}
+
+.bg-lightgreen {
+  background-color: #90ee90; /* This is a light green color */
+}
+
+.border-custom {
+  border: 1px solid black;
+}
+
+.currency-box-custom {
+  display: flex;
+  align-items: center;
+}
+
+.currency-box-custom span {
+  transform: translateX(25px) translateY(-5px);
+}
